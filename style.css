@@ -80,6 +80,7 @@ p {
 }
 .cost {
   color: var(--clr-accent-primary);
+  font-size: var(--fs-header);
 }
 
 .container {
@@ -148,7 +149,9 @@ a:active {
   cursor: pointer;
   columns: var(--clr-txt-accent);
 }
-
+.attribution {
+  margin-right: 450px;
+}
 @media only screen and (min-width: 615px) {
   .container {
     display: flex;
